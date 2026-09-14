@@ -1,0 +1,14 @@
+[package]
+build = "build.rs"
+name = "randomx-vm"
+version = "0.1.0"
+edition = "2021"
+authors = ["Vault Labs"]
+license = "MIT"
+description = "RandomX VM-shaped bench — stub job, nonce scan."
+readme = "README.md"
+repository = "https://github.com/vaultlabs/randomx-vm"
+
+[[bin]]
+name = "randomx-vm"
+path = "src/main.rs"
